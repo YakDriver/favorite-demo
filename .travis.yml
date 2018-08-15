@@ -1,0 +1,8 @@
+language: python
+python:
+  - "3.5"
+  - "3.6"
+install:
+  - echo 'Do or do not. There is no try.'
+script:
+  - pytest
